@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+
+.navbar{
+    height:30px;
+    background-color: #555555;
+}
+
+.data-con{
+    height:1700px;
+    background-color: rgb(15, 106, 113);
+}
+.data{
+    
+   padding-top: 10px;
+    margin-left:30px;
+    margin-right:30px;
+    height:11%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.data p{
+    font-size:20px;
+
+}
+
+/*News*/
+.pi{
+    padding:10px;
+    width:13%;
+    height:90%;
+    
+}
+.text{
+    width:80%;
+    height:60%;
+    
+    padding: 30px;
+}
+.pic1{
+    background-image: url("img/news/ai3.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.pic2{
+    background-image: url("img/news/ai2.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.pic3{
+    background-image: url("img/news/ai1.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.pic4{
+    background-image: url("img/news/ai4.webp");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.pic5{
+    background-image: url("img/news/ai5.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.pic6{
+    background-image: url("img/news/ai6.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.pic7{
+    background-image: url("img/news/ai7.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.pic8{
+    background-image: url("img/news/ai8.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/*Footer*/
+.back{
+    height:50px;
+    background-color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(34, 106, 150);
+    border-bottom: 0.4px solid white;
+}
+.back a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+@media(max-width:1200px){
+    html{
+        width:1200px;
+    }
+}
